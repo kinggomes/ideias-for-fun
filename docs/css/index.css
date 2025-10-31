@@ -30,3 +30,20 @@
     font-size: 22px;
     text-align: center;
 }
+
+
+
+.main .main-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px 20px 20px;
+    margin: 8px 8px 80px 8px;
+}
+
+.main-text p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
