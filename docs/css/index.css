@@ -47,3 +47,51 @@
     font-weight: 600;
 }
 
+
+.main .main-cards{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    padding-bottom: 80px;
+}
+
+.main-cards .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 120px;
+    max-width: 100%;
+}
+
+.cards a{
+    text-decoration: none;
+}
+
+.cards .card{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 320px;
+    border-radius: 20px;
+    border: 2px solid  #212529;
+}
+
+.cards .card img{
+    width: 100%; 
+    padding: 25px;
+}
+
+.cards .card:hover{
+    transform: scale(1.05);
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: rgb(167, 165, 165);
+    font-size: 14px;
+    padding: 60px 20px 20px 20px;
+}
+
