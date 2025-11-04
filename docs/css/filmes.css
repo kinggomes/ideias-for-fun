@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.header .navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.navbar p, a, select{
+    padding: 15px;
+    text-decoration: none;
+    color: red;
+    font-size: 17px;
+}
+
+.navbar p{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.navbar select{
+   border-color: black;
+   outline: none;
+   background-color: black;
+}
+
+.searchbar{
+    display: flex;
+    margin-left: auto;
+}
+
+.searchbar input{
+    align-self: center;
+    padding: 8px;
+    margin-right: 30px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.searchbar button{
+    align-self: center;
+    background-color: black;
+    font-size: 17px;
+    color: #198754;
+    border: 1px solid #198754;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;  
+}
+
+.searchbar button:hover
+
