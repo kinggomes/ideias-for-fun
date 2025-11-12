@@ -93,16 +93,60 @@
 
 .lista-filmes .filme{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Observação */
     gap: 1rem;
     max-width: 260px;
+    height: 100%;
     border-radius: 20px;
     background-color: #272626;
 }
 
 .lista-filmes .filme img{
     width: 100%;
-    padding: 18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.lista-filmes .filme .filme-info{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0px 8px 8px 8px;
+    flex-grow: 1;  /*Define o espaçamento de um elemento filho dentro de um contâiner com "display: flex" e "flex-direction: column". Esses dois estilos transformam o contêiner "filme" (veja "observação") em uma coluna onde os itens filhos são empilhados verticalmente, com isso o "flex-grow" lida com qualquer espaço restante. O valor "1" faz com que o contâiner "inche", empurrando o elemento "a" (o botão) para o fim do card */
+    
+}
+
+.filme .filme-info h4, span{
+    padding-bottom: 15px;
+}
+
+.filme .filme-info h4{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.lista-filmes .filme a{
+    text-decoration: none;
+    color: white;
+    background-color: #0d6efd;
+    border-radius: 8px;
+    padding: 10px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: rgb(167, 165, 165);
+    font-size: 14px;
+    padding: 60px 20px 20px 20px;
 }
 
 
