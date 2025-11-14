@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="./imagens/imagens-favi/favifilm.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/filmes.css">
+    <link rel="shortcut icon" href="../imagens/imagens-favi/favifilm.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/filmes.css">
     <title>Os Melhores Filmes</title>
 </head>
 <body>
@@ -15,13 +15,25 @@
     <section class="header">
         <div class="navbar">
             <p>Ideias For Fun</p>
-            <a href="index.html" target="_blank">Início</a>
+            <a href="../index.html" target="_blank">Início</a>
 
-            <select>
-                <option>Sugestões</option>
-                <a href="" target="_blank"><option>Músicas</option></a>
-                <a href="" target="_blank"><option>Jogos</option></a>
+            <select onchange="navegar(this)">
+                <option value="">Sugestões</option>
+                <option value="musicas.html">Músicas</option>
+                <option value="jogos.html">Jogos</option>
             </select>
+
+            <script>
+                // onchange=navegar(this) passa o elemento select como parâmetro
+               function navegar(select) {
+                   const url = select.value;   // passa o valor de cada option (páginas HTML no dropdown) para uma variável
+                   if (url) {                  // se houver valor na variável:
+                       window.open(url, '_blank'); // abre em nova aba
+                    }
+                }
+           </script>
+
+
 
             <div class="searchbar">
                 <input type="text" id="pesq-filme" placeholder="Procure um filme...">
@@ -43,7 +55,7 @@
 
             <ul class="lista-filmes">
                 <li class="filme">
-                    <img src="./imagens/imagens-filmes/aranha2.jpeg" alt="homem aranha2">
+                    <img src="../imagens/imagens-filmes/aranha2.jpeg" alt="homem aranha2">
 
                     <div class="filme-info">
                         <h4 class="filme-nome">Homem-Aranha 2</h4>
@@ -58,7 +70,7 @@
 
 
                 <li class="filme">
-                    <img src="./imagens/imagens-filmes/arquivox.jpg" alt="arquivo x">
+                    <img src="../imagens/imagens-filmes/arquivox.jpg" alt="arquivo x">
 
                     <div class="filme-info">
                         <h4 class="filme-nome">Arquivo X - O Filme</h4>
@@ -73,7 +85,7 @@
 
 
                 <li class="filme">
-                    <img src="./imagens/imagens-filmes/chefao.jpg" alt="poderoso chefao">
+                    <img src="../imagens/imagens-filmes/chefao.jpg" alt="poderoso chefao">
 
                     <div class="filme-info">
                         <h4 class="filme-nome">O Poderoso Chefão</h4>
@@ -88,7 +100,7 @@
 
 
                 <li class="filme">
-                    <img src="./imagens/imagens-filmes/coringa.webp" alt="coringa">
+                    <img src="../imagens/imagens-filmes/coringa.webp" alt="coringa">
 
                     <div class="filme-info">
                         <h4 class="filme-nome">Coringa</h4>
@@ -103,7 +115,7 @@
 
 
                 <li class="filme">
-                    <img src="./imagens/imagens-filmes/elite.webp" alt="tropa de elite">
+                    <img src="../imagens/imagens-filmes/elite.webp" alt="tropa de elite">
 
                     <div class="filme-info">
                         <h4 class="filme-nome">Tropa de Elite</h4>
@@ -118,7 +130,7 @@
 
 
                 <li class="filme">
-                    <img src="./imagens/imagens-filmes/exterminador.jpg" alt="exterminador do futuro">
+                    <img src="../imagens/imagens-filmes/exterminador.jpg" alt="exterminador do futuro">
 
                     <div class="filme-info">
                         <h4 class="filme-nome">O Exterminador do Futuro: Gênesis</h4>
@@ -133,7 +145,7 @@
 
 
                 <li class="filme">
-                    <img src="./imagens/imagens-filmes/fale.jpg" alt="fale comigo">
+                    <img src="../imagens/imagens-filmes/fale.jpg" alt="fale comigo">
 
                     <div class="filme-info">
                         <h4 class="filme-nome">Fale Comigo</h4>
@@ -148,7 +160,7 @@
 
 
                 <li class="filme">
-                    <img src="./imagens/imagens-filmes/fastx.jpg" alt="velozes e furiosos">
+                    <img src="../imagens/imagens-filmes/fastx.jpg" alt="velozes e furiosos">
 
                     <div class="filme-info">
                         <h4 class="filme-nome">Velozes e Furiosos 10</h4>
@@ -163,7 +175,7 @@
 
 
                 <li class="filme">
-                    <img src="./imagens/imagens-filmes/harry.jpg" alt="harry potter e a pedra filosofal">
+                    <img src="../imagens/imagens-filmes/harry.jpg" alt="harry potter e a pedra filosofal">
 
                     <div class="filme-info">
                         <h4 class="filme-nome">Harry Potter e a Pedra Filosofal</h4>
@@ -178,7 +190,7 @@
 
 
                 <li class="filme">
-                    <img src="./imagens/imagens-filmes/tarzan.jpg" alt="tarzan">
+                    <img src="../imagens/imagens-filmes/tarzan.jpg" alt="tarzan">
 
                     <div class="filme-info">
                         <h4 class="filme-nome">Tarzan</h4>
@@ -193,7 +205,7 @@
 
 
                 <li class="filme">
-                    <img src="./imagens/imagens-filmes/ultimo.jpg" alt="ate o ultimo homem">
+                    <img src="../imagens/imagens-filmes/ultimo.jpg" alt="ate o ultimo homem">
 
                     <div class="filme-info">
                         <h4 class="filme-nome">Até o Último Homem</h4>
@@ -208,7 +220,7 @@
 
 
                 <li class="filme">
-                    <img src="./imagens/imagens-filmes/walle.webp" alt="walle">
+                    <img src="../imagens/imagens-filmes/walle.webp" alt="walle">
 
                     <div class="filme-info">
                         <h4 class="filme-nome">WALL-E</h4>
