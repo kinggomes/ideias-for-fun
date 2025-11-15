@@ -12,18 +12,225 @@
 <body>
 
 
-    <section class="header"></section>
+
+    <section class="header">
+        <div class="navbar">
+            <p>Ideias For Fun</p>
+            <a href="../index.html" target="_blank">Início</a>
+
+            <select onchange="navegar(this)">
+                <option value="">Sugestões</option>
+                <option value="filmes.html">Filmes</option>
+                <option value="musicas.html">Músicas</option>
+            </select>
+
+            <script>
+                // onchange=navegar(this) passa o elemento select como parâmetro
+               function navegar(select) {
+                   const url = select.value;   // passa o valor de cada option (páginas HTML no dropdown) para uma variável
+                   if (url) {                  // se houver valor na variável:
+                       window.open(url, '_blank'); // abre em nova aba
+                    }
+                }
+           </script>
+
+
+           <div class="searchbar">
+                <input type="text" id="pesq-jogo" placeholder="Procure um jogo...">
+                <button id="pesquisarJogo">Procurar</button>
+            </div>
+
+        </div>
+    </section>
 
 
 
 
-    <section class="main"></section>
+    <section class="main">
+        <div class="main-title">
+            <h1>Melhores Jogos de Todos os Tempos</h1>
+        </div>
+
+
+        <div class="container-lista">
+
+            <ul class="lista-jogos">
+                <li class="jogo">
+                    <img src="../imagens/imagens-jogos/alice.jpg" alt="alice madness returns">
+
+                    <div class="jogo-info">
+                        <h4 class="jogo-nome">Alice: Madness Returns</h4>
+                        <span class="jogo-genero">Gênero: Ação/Aventura, Plataforma</span>
+                        <span class="jogo-plataforma">Plataformas: Xbox 360, PlayStation 3, Microsoft Windows</span>
+                        <span class="jogo-lancamento">Lançamento inicial: 2011</span>
+                        <span class="jogo-dev">Desenvolvedor: Spicy Horse</span>
+                    </div>
+                    <a href="" target="_blank" class="jogo-botao">Jogue Agora</a>
+                </li>
+
+
+                <li class="jogo">
+                    <img src="../imagens/imagens-jogos/blackflag.jpeg" alt="assassin's creed 4">
+
+                    <div class="jogo-info">
+                        <h4 class="jogo-nome">Assassin's Creed IV: BlackFlag</h4>
+                        <span class="jogo-genero">Gênero: Ação/Aventura, Mundo aberto</span>
+                        <span class="jogo-plataforma">Plataformas: Xbox 360, PlayStation 3, Nintendo Switch, Microsoft Windows</span>
+                        <span class="jogo-lancamento">Lançamento inicial: 2013</span>
+                        <span class="jogo-dev">Desenvolvedor: Ubisoft</span>
+                    </div>
+                    <a href="" target="_blank" class="jogo-botao">Jogue Agora</a>
+                </li>
+
+
+                <li class="jogo">
+                    <img src="../imagens/imagens-jogos/bully.jpg" alt="bully: scholarship edition">
+
+                    <div class="jogo-info">
+                        <h4 class="jogo-nome">Bully: Scholarship Edition</h4>
+                        <span class="jogo-genero">Gênero: Ação, Luta, Mundo aberto</span>
+                        <span class="jogo-plataforma">Plataformas: Xbox 360, Microsoft Windows, PlayStation 4, Wii</span>
+                        <span class="jogo-lancamento">Lançamento inicial: 2008</span>
+                        <span class="jogo-dev">Desenvolvedor: Rockstar</span>
+                    </div>
+                    <a href="" target="_blank" class="jogo-botao">Jogue Agora</a>
+                </li>
+
+
+                <li class="jogo">
+                    <img src="../imagens/imagens-jogos/clair.webp" alt="clair obscur: expedition 33">
+
+                    <div class="jogo-info">
+                        <h4 class="jogo-nome">Clair Obscur: Expedition 33</h4>
+                        <span class="jogo-genero">Gênero: RPG, Jogo de turnos, Ação/Aventura, Indie</span>
+                        <span class="jogo-plataforma">Plataformas: PlayStation 5, Xbox Series X/S, Microsoft Windows</span>
+                        <span class="jogo-lancamento">Lançamento inicial: 2025</span>
+                        <span class="jogo-dev">Desenvolvedor: Sandfall Interactive</span>
+                    </div>
+                    <a href="" target="_blank" class="jogo-botao">Jogue Agora</a>
+                </li>
+
+
+                <li class="jogo">
+                    <img src="../imagens/imagens-jogos/gta.webp" alt="gta san andreas">
+
+                    <div class="jogo-info">
+                        <h4 class="jogo-nome">Grand Theft Auto: San Andreas</h4>
+                        <span class="jogo-genero">Gênero: Mundo Aberto, Ação</span>
+                        <span class="jogo-plataforma">Plataformas: PlayStation 2, Android, Microsoft Windows, Xbox 360</span>
+                        <span class="jogo-lancamento">Lançamento inicial: 2004</span>
+                        <span class="jogo-dev">Desenvolvedor: Rockstar Games</span>
+                    </div>
+                    <a href="" target="_blank" class="jogo-botao">Jogue Agora</a>
+                </li>
+
+
+                <li class="jogo">
+                    <img src="../imagens/imagens-jogos/guitar.jpg" alt="guitar hero 3">
+
+                    <div class="jogo-info">
+                        <h4 class="jogo-nome">Guitar Hero III: Legends of Rock</h4>
+                        <span class="jogo-genero">Gênero: Jogo de ritmo, Musical</span>
+                        <span class="jogo-plataforma">Plataformas: PlayStation 2, Wii, Xbox 360, Microsoft Windows</span>
+                        <span class="jogo-lancamento">Lançamento inicial: 2007</span>
+                        <span class="jogo-dev">Desenvolvedores: RedOctane, Neversoft</span>
+                    </div>
+                    <a href="" target="_blank" class="jogo-botao">Jogue Agora</a>
+                </li>
+
+
+                <li class="jogo">
+                    <img src="../imagens/imagens-jogos/hifi.webp" alt="hi fi rush">
+
+                    <div class="jogo-info">
+                        <h4 class="jogo-nome">Hi-Fi Rush</h4>
+                        <span class="jogo-genero">Gênero: Jogo de ritmo, Plataforma, Ação/Aventura</span>
+                        <span class="jogo-plataforma">Plataformas: Xbox Series X/S, PlayStation 5, Microsoft Windows</span>
+                        <span class="jogo-lancamento">Lançamento inicial: 2023</span>
+                        <span class="jogo-dev">Desenvolvedor: Tango Gameworks</span>
+                    </div>
+                    <a href="" target="_blank" class="jogo-botao">Jogue Agora</a>
+                </li>
+
+
+                <li class="jogo">
+                    <img src="../imagens/imagens-jogos/lost.jpg" alt="lost in random">
+
+                    <div class="jogo-info">
+                        <h4 class="jogo-nome">Lost in Random</h4>
+                        <span class="jogo-genero">Gênero: Ação/Aventura, Estratégia, Indie</span>
+                        <span class="jogo-plataforma">Plataformas: Xbox Series X/S, PlayStation 5, Microsoft Windows</span>
+                        <span class="jogo-lancamento">Lançamento inicial: 2021</span>
+                        <span class="jogo-dev">Desenvolvedor: Zoink Games</span>
+                    </div>
+                    <a href="" target="_blank" class="jogo-botao">Jogue Agora</a>
+                </li>
+
+
+                <li class="jogo">
+                    <img src="../imagens/imagens-jogos/noire.webp" alt="l.a noire">
+
+                    <div class="jogo-info">
+                        <h4 class="jogo-nome">L.A Noire</h4>
+                        <span class="jogo-genero">Gênero: Mundo aberto, Ação, Estratégia</span>
+                        <span class="jogo-plataforma">Plataformas: PlayStation 3, Xbox 360, Microsoft Windows, Nintendo Switch</span>
+                        <span class="jogo-lancamento">Lançamento inicial: 2011</span>
+                        <span class="jogo-dev">Desenvolvedor: Rockstar Games</span>
+                    </div>
+                    <a href="" target="_blank" class="jogo-botao">Jogue Agora</a>
+                </li>
+
+
+                <li class="jogo">
+                    <img src="../imagens/imagens-jogos/skyrim.jpg" alt="the elder scrolls 5: skyrim">
+
+                    <div class="jogo-info">
+                        <h4 class="jogo-nome">The Elder Scrolls V: Skyrim</h4>
+                        <span class="jogo-genero">Gênero: Mundo aberto, Ação, RPG</span>
+                        <span class="jogo-plataforma">Plataformas: Xbox 360, PlayStation 3, Microsoft Windows</span>
+                        <span class="jogo-lancamento">Lançamento inicial: 2011</span>
+                        <span class="jogo-dev">Desenvolvedor: Bethesda Game Studios</span>
+                    </div>
+                    <a href="" target="_blank" class="jogo-botao">Jogue Agora</a>
+                </li>
+
+
+                <li class="jogo">
+                    <img src="../imagens/imagens-jogos/walking.webp" alt="the walking dead: telltale definitive series">
+
+                    <div class="jogo-info">
+                        <h4 class="jogo-nome">The Walking Dead: The Telltale Definitive Series</h4>
+                        <span class="jogo-genero">Gênero: Ação, Narrativa</span>
+                        <span class="jogo-plataforma">Plataformas: Xbox Series X/S, PlayStation 4, Microsoft Windows</span>
+                        <span class="jogo-lancamento">Lançamento inicial: 2019</span>
+                        <span class="jogo-dev">Desenvolvedores: Telltale Games, Skybound Games</span>
+                    </div>
+                    <a href="" target="_blank" class="jogo-botao">Jogue Agora</a>
+                </li>
+
+
+                <li class="jogo">
+                    <img src="../imagens/imagens-jogos/wukong.jpg" alt="black myth: wukong">
+
+                    <div class="jogo-info">
+                        <h4 class="jogo-nome">Black Myth: Wukong</h4>
+                        <span class="jogo-genero">Gênero: Ação/Aventura, RPG, Indie</span>
+                        <span class="jogo-plataforma">Plataformas: Xbox Series X/S, PlayStation 4, Microsoft Windows</span>
+                        <span class="jogo-lancamento">Lançamento inicial: 2024</span>
+                        <span class="jogo-dev">Desenvolvedores: Game Science</span>
+                    </div>
+                    <a href="" target="_blank" class="jogo-botao">Jogue Agora</a>
+                </li>
+            </ul>
+
+        </div>
+    </section>
 
 
 
 
 
-    <section class="footer"></section>
+    <section class="footer">@ 11/2025 - Feito por Jeferson \ kinggomes</section>
     
 </body>
 </html>
