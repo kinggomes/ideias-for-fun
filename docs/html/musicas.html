@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../imagens/imagens-favi/favimusic.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/musicas.css">
+    <title>As Melhores Músicas</title>
+</head>
+<body>
+
+       
+    <section class="header">
+        <div class="navbar">
+            <p>Ideias For Fun</p>
+            <a href="../index.html" target="_blank">Início</a>
+
+            <select onchange="navegar(this)">
+                <option value="">Sugestões</option>
+                <option value="jogos.html">Jogos</option>
+                <option value="filmes.html">Filmes</option>
+            </select>
+
+
+            <script>
+                // onchange=navegar(this) passa o elemento select como parâmetro
+               function navegar(select) {
+                   const url = select.value;   // passa o valor de cada option (páginas HTML no dropdown) para uma variável
+                   if (url) {                  // se houver valor na variável:
+                       window.open(url, '_blank'); // abre em nova aba
+                    }
+                }
+           </script>
+
+
+           <div class="searchbar">
+                <input type="text" id="pesq-musica" placeholder="Procure uma música...">
+                <button id="pesquisarMusica">Procurar</button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section class="main">
+        <div class="main-title">
+            <h1>Melhores Músicas de Todos os Tempos</h1>
+        </div>
+
+
+        <div class="container-lista">
+
+            <ul class="lista-musicas">
+                <li class="musica">
+                    <img src="" alt="">
+
+                    <div class="musica-info">
+                        <h4></h4>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <a href=""></a>
+                </li>
+
+
+                <li class="musica"></li>
+
+
+                <li class="musica"></li>
+
+
+                <li class="musica"></li>
+
+
+                <li class="musica"></li>
+
+
+                <li class="musica"></li>
+
+
+                <li class="musica"></li>
+
+
+                <li class="musica"></li>
+
+
+                <li class="musica"></li>
+
+
+                <li class="musica"></li>
+
+
+                <li class="musica"></li>
+
+
+                <li class="musica"></li>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="footer"></section>
+
+    
+</body>
+</html>
