@@ -146,3 +146,15 @@
     font-size: 14px;
     padding: 60px 20px 20px 20px;
 }
+
+
+
+/* CLASSES DE INTERAÇÃO JS */
+
+.musica.mostrar {
+    display: flex;
+}
+
+.musica.remover {
+    display: none;
+}
