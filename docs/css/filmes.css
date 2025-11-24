@@ -151,3 +151,16 @@
 
 
 
+
+/* CLASSES DE INTERAÇÃO JS */
+
+.filme.mostrar {
+    display: flex;
+}
+
+.filme.remover {
+    display: none;
+}
+
+
+
