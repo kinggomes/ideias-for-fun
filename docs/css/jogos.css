@@ -145,3 +145,17 @@
     padding: 60px 20px 20px 20px;
 }
 
+
+
+
+
+/* CLASSES DE INTERAÇÃO JS */
+
+.jogo.mostrar {
+    display: flex;
+}
+
+.jogo.remover {
+    display: none;
+}
+
