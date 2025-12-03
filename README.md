@@ -15,7 +15,7 @@ Esta página foi feita com HTML/CSS e com interação por JS. Suas cores princip
 
 
 
-Este projeto é um remake de uma atividade que realizei durante um curso de web design, onde, junto com um grupo, criamos um site com a mesma idéia. Porém, grande parte do projeto original foi criado com o framework Bootstrap, onde usamos templates e códigos já prontos para "copia e cola". Dessa vez, eu decidi recriar esse projeto totalmente do zero, sem utilizar nenhum framework, e tornando-o porém ainda robusto, adicionando mais cards, mais informações, e também barras de pesquisa. E, apesar dos títulos das páginas, elas não são uma tentativa de afirmar quais são os "Melhores Filmes/Músicas/Jogos de Todos os Tempos" objetivamente, e sim apenas uma seleção feita por mim, através de meu gosto pessoal.
+Este projeto é um remake de uma atividade que realizei durante um curso de web design, onde, junto com um grupo, criamos um site com a mesma idéia. Porém, grande parte do projeto original foi criado com o framework Bootstrap, onde usamos templates e códigos já prontos para "copia e cola". Dessa vez, eu decidi recriar esse projeto totalmente do zero, sem utilizar nenhum framework, e tornando-o ainda mais robusto, adicionando mais cards, mais informações, e também barras de pesquisa. E, apesar dos títulos das páginas, elas não são uma tentativa de afirmar quais são os "Melhores Filmes/Músicas/Jogos de Todos os Tempos" objetivamente, e sim apenas uma seleção feita por mim, através de meu gosto pessoal.
 
 Link para acesso: https://kinggomes.github.io/ideias-for-fun/
  
