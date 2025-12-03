@@ -136,6 +136,11 @@
     margin-bottom: 10px;
 }
 
+.lista-musicas .musica a:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
 
 
 
